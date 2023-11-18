@@ -1,5 +1,7 @@
-﻿int numberA = 31;
-int numberB = 5;
-int result = numberA + numberB;
+﻿int numberA = new Random().Next(1, 10); // случайное число от 1 до 9
+Console.WriteLine(numberA);
+int numberB = new Random().Next(1,10);
+Console.WriteLine(numberB);
+double result = numberA + numberB;
 Console.WriteLine(result);
 
